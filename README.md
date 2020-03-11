@@ -1,6 +1,6 @@
 # MLX90621
 
-MLX90621 for various platforms
+MLX90621 code for various platforms
 
 ## Use git's submodule to download all repositories
 
