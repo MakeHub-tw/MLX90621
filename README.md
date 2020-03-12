@@ -14,3 +14,25 @@ Or alternatively, if you've already cloned this repository. Just `cd` to it and 
     git submodule update
 
 Enjoy!
+
+## What's included
+
+### MLX90621-library for `mbed`
+
+This is the official library from Melexis - https://github.com/melexis/MLX90621-library
+
+The driver inside the repository is designed to work on [mbed](https://www.mbed.com/), but it seems not so hard to port it to other platforms. 
+
+### Arduino
+
+I've tested https://github.com/robinvanemden/MLX90621_Arduino_Processing and it seems to work well.
+
+It seems to be a good idea to port the official library on Arduino as well.
+
+### Raspberry Pi
+
+Inside this subfolder, I've included https://github.com/rod0/thermomin
+
+It works, but the values returned seem to be shifted. It's also possible to port the official algorithm to replace the original one.
+
+By the way, this repository makes use of software I2C to avoid clock stretching, I don't know whether this matters.

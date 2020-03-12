@@ -1,3 +1,9 @@
 [submodule "Arduino"]
 	path = Arduino
 	url = https://github.com/valiot/MLX90621.git
+[submodule "MLX90621-library"]
+	path = MLX90621-library
+	url = https://github.com/melexis/MLX90621-library.git
+[submodule "Raspberry-Pi/thermomin"]
+	path = Raspberry-Pi/thermomin
+	url = https://github.com/rod0/thermomin.git
